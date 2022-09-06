@@ -17,7 +17,6 @@ function et_InitGame(levelTime,randomSeed,restart)
     et.RegisterModname(modname)
 end
 
-
 function et_ConsoleCommand(command,message)
         if et.trap_Argv(0) == "mycommand" then
                         local message = et.trap_Argv(1)
